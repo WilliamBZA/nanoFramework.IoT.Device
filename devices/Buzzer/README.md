@@ -21,7 +21,7 @@ Also you could explicitly pass a PwmChannel if you want to construct that yourse
 Here's an example how you could use `Buzzer`.
 
 ```csharp
-using (Buzzer buzzer = new Buzzer(21)); // Initialize buzzer with software PWM connected to pin 21.
+using (Buzzer buzzer = new Buzzer(21)) // Initialize buzzer with software PWM connected to pin 21.
 {
     buzzer.PlayTone(440, 1000); // Play tone with frequency 440 hertz for one second.
 }
